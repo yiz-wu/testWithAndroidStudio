@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(sectionsPagerAdapter);
 
 
-        // colonna Tabs
+        // colonna Tabs ciao
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
 
-
+//miao
         // Bottone FAB
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

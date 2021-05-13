@@ -41,11 +41,16 @@
             />
 
     </LinearLayout>
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        />
+<!--    la presenza di Checkbox fa non funzionare onItemClickListener
+        bisogna sistema,   prova a seguire questo link
+        https://stackoverflow.com/questions/16913783/adapterview-onitemclicklistener-is-not-working-in-my-customadapter
+-->
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:clickable="false"-->
+<!--        />-->
     
 
 </LinearLayout>

@@ -1,6 +1,7 @@
 package com.example.demoactivitydesign.ui.main;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,13 +18,18 @@ import com.example.demoactivitydesign.R;
 /**
  * A placeholder fragment containing a simple view.
  */
+
+// corrisponde ad un frammento / sezione / pagina / tab
 public class PlaceholderFragment extends Fragment {
 
     private static final String ARG_SECTION_NUMBER = "section_number";
+    private static String TAG = "PlaceholderFragment";
 
     private PageViewModel pageViewModel;
 
     public static PlaceholderFragment newInstance(int index) {
+        Log.i(TAG, "in newInstance() with index = "+index);
+
         PlaceholderFragment fragment = new PlaceholderFragment();
         Bundle bundle = new Bundle();
         bundle.putInt(ARG_SECTION_NUMBER, index);
